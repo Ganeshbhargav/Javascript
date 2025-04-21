@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.TrafficLightContainer{
+    background-color: #86d2f2;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+.TrafficSignal{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.TrafficLightContainer h1{
+    font-family: roboto;
+    color: #1f1d41;
+    font-weight: bold;
+    font-size: 3.0rem;
+}
+.TrafficLightBulb{
+    background-color: #1f1d41;
+    height: 300px;
+    margin-left: 50px;
+    width: 100px;
+    border-radius: 48px;
+    padding: 20px;
+    border-width: 0px;
+}
+.bulb{
+    background-color: #4b5069;
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    margin-bottom: 55px;
+    
+}
+.Signal-btn{
+     background-color: #1f1d41;
+     color: white;
+     width: 70px;
+     height: 50px;
+     border-radius: 8px;
+}
