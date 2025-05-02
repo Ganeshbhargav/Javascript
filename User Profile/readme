@@ -4,7 +4,7 @@ Difficulty: 🟢 Easy
 
 📄 Project Description
 
-This project demonstrates the creation of a **dynamic User Profile Page** using core JavaScript concepts such as DOM manipulation, element creation, and data rendering from an object. The goal is to use the provided `profileDetails` object and dynamically generate a user profile card inside a predefined HTML container.
+This project demonstrates the creation of a dynamic User Profile Page using core JavaScript concepts such as DOM manipulation, element creation, and data rendering from an object. The goal is to use the provided `profileDetails` object and dynamically generate a user profile card inside a predefined HTML container.
 
 🛠️ What I Learned
 
