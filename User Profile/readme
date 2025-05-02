@@ -1,19 +1,25 @@
- 👤 User Profile Page
-Status: ✅ Solved
-Difficulty: 🟢 Easy
+Here's a GitHub project description you can use for your **User Profile Page** assignment:
 
-📄 Project Description
+---
 
-This project demonstrates the creation of a dynamic User Profile Page using core JavaScript concepts such as DOM manipulation, element creation, and data rendering from an object. The goal is to use the provided `profileDetails` object and dynamically generate a user profile card inside a predefined HTML container.
+# 👤 User Profile Page
 
-🛠️ What I Learned
+### Status: ✅ Solved
+
+### Difficulty: 🟢 Easy
+
+## 📄 Project Description
+
+This project demonstrates the creation of a **dynamic User Profile Page** using core JavaScript concepts such as DOM manipulation, element creation, and data rendering from an object. The goal is to use the provided `profileDetails` object and dynamically generate a user profile card inside a predefined HTML container.
+
+### 🛠️ What I Learned
 
 * Dynamically creating and appending HTML elements using JavaScript
 * Accessing and rendering object data into the DOM
 * Using attributes like `textContent` and `src` to update HTML elements
 * Applying CSS for basic layout and font styling
 
-📌 Features
+### 📌 Features
 
 * User's name displayed as a heading
 * Profile image dynamically rendered using the `imgSrc` value
@@ -21,29 +27,29 @@ This project demonstrates the creation of a dynamic User Profile Page using core
 * Fully generated using JavaScript, with no hardcoded HTML elements (other than the container)
 * Styled with the Roboto font for a clean look
 
-📂 Tech Stack
+### 📂 Tech Stack
 
-1) HTML
-2) CSS
-3) JS
+* **HTML5**
+* **CSS3**
+* **Vanilla JavaScript (ES6)**
 
- 📸 Preview
+### 📸 Preview
 
 > *(You can insert a screenshot or demo GIF here once available)*
 
--------------------------------------------------------------------
+---
 
-🔧 How It Works
+## 🔧 How It Works
 
 The project uses a predefined object `profileDetails`:
 
-javascript
+```javascript
 const profileDetails = {
   name: "John Doe",
   imgSrc: "https://example.com/profile.jpg",
   age: "28 years old"
 };
-
+```
 
 From this, JavaScript dynamically creates:
 
@@ -53,9 +59,9 @@ From this, JavaScript dynamically creates:
 
 All these are appended as children to the container with the ID `profileContainer`.
 
------------------------------------------
+---
 
-📝 Notes
+## 📝 Notes
 
 * Prefilled code must remain untouched.
 * The layout and styles aim to match the provided design reference.
