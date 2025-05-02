@@ -1,4 +1,4 @@
- 👤 User Profile Pag
+ 👤 User Profile Page
 Status: ✅ Solved
 Difficulty: 🟢 Easy
 
@@ -23,27 +23,27 @@ This project demonstrates the creation of a **dynamic User Profile Page** using 
 
 📂 Tech Stack
 
-* **HTML5**
-* **CSS3**
-* **Vanilla JavaScript (ES6)**
+1) HTML
+2) CSS
+3) JS
 
-### 📸 Preview
+ 📸 Preview
 
 > *(You can insert a screenshot or demo GIF here once available)*
 
----
+-------------------------------------------------------------------
 
-## 🔧 How It Works
+🔧 How It Works
 
 The project uses a predefined object `profileDetails`:
 
-```javascript
+javascript
 const profileDetails = {
   name: "John Doe",
   imgSrc: "https://example.com/profile.jpg",
   age: "28 years old"
 };
-```
+
 
 From this, JavaScript dynamically creates:
 
@@ -53,9 +53,9 @@ From this, JavaScript dynamically creates:
 
 All these are appended as children to the container with the ID `profileContainer`.
 
----
+-----------------------------------------
 
-## 📝 Notes
+📝 Notes
 
 * Prefilled code must remain untouched.
 * The layout and styles aim to match the provided design reference.
