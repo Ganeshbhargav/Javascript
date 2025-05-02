@@ -1,0 +1,66 @@
+ 👤 User Profile Pag
+Status: ✅ Solved
+Difficulty: 🟢 Easy
+
+📄 Project Description
+
+This project demonstrates the creation of a **dynamic User Profile Page** using core JavaScript concepts such as DOM manipulation, element creation, and data rendering from an object. The goal is to use the provided `profileDetails` object and dynamically generate a user profile card inside a predefined HTML container.
+
+🛠️ What I Learned
+
+* Dynamically creating and appending HTML elements using JavaScript
+* Accessing and rendering object data into the DOM
+* Using attributes like `textContent` and `src` to update HTML elements
+* Applying CSS for basic layout and font styling
+
+📌 Features
+
+* User's name displayed as a heading
+* Profile image dynamically rendered using the `imgSrc` value
+* Age displayed in a paragraph
+* Fully generated using JavaScript, with no hardcoded HTML elements (other than the container)
+* Styled with the Roboto font for a clean look
+
+📂 Tech Stack
+
+* **HTML5**
+* **CSS3**
+* **Vanilla JavaScript (ES6)**
+
+### 📸 Preview
+
+> *(You can insert a screenshot or demo GIF here once available)*
+
+---
+
+## 🔧 How It Works
+
+The project uses a predefined object `profileDetails`:
+
+```javascript
+const profileDetails = {
+  name: "John Doe",
+  imgSrc: "https://example.com/profile.jpg",
+  age: "28 years old"
+};
+```
+
+From this, JavaScript dynamically creates:
+
+* A heading element for the name
+* An image element for the profile picture
+* A paragraph element for the age
+
+All these are appended as children to the container with the ID `profileContainer`.
+
+---
+
+## 📝 Notes
+
+* Prefilled code must remain untouched.
+* The layout and styles aim to match the provided design reference.
+* This project reinforces dynamic DOM handling, useful for real-world applications like user dashboards or content feeds.
+
+---
+
+Would you like help adding a screenshot or a live demo link to your GitHub README?
