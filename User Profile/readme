@@ -5,23 +5,22 @@
 
 ## 📄 Project Description
 
-This project demonstrates how to dynamically generate a User Profile Page using **vanilla JavaScript**. It leverages core JavaScript concepts such as **DOM manipulation**, **element creation**, and **data rendering** from an object. The profile page is created entirely through JavaScript with minimal initial HTML.
+This project dynamically generates a user profile card using **vanilla JavaScript**. It demonstrates key concepts such as **DOM manipulation**, **object data rendering**, and **element creation**. The page is fully built via JavaScript, without hardcoding any profile content in the HTML.
 
 ## 🛠️ What I Learned
 
-- Dynamically creating and appending HTML elements using JavaScript
-- Accessing and rendering object data into the DOM
-- Using properties like `.textContent` and `.src` to update DOM elements
-- Applying basic CSS for layout and styling
-- Using web fonts (Roboto) for a modern UI
+- Creating and appending elements with JavaScript
+- Accessing object properties to populate the UI
+- Using `textContent` and `src` for updating elements
+- Applying clean styling with CSS and Google Fonts
 
 ## 📌 Features
 
-- ✅ User's name displayed as a heading
-- ✅ Profile image rendered dynamically from the `imgSrc` value
-- ✅ Age shown in a paragraph
-- ✅ All elements are created and appended via JavaScript
-- ✅ Clean, responsive design using Roboto font
+- 👤 Name displayed as a heading
+- 🖼️ Profile image rendered from a dynamic source
+- 📅 Age shown in a paragraph
+- 🧱 All content created with JavaScript (no static HTML elements)
+- 🎨 Styled with the **Roboto** font for a modern look
 
 ## 📂 Tech Stack
 
@@ -31,7 +30,7 @@ This project demonstrates how to dynamically generate a User Profile Page using 
 
 ## 🔧 How It Works
 
-The project uses a predefined JavaScript object:
+A simple JavaScript object provides the data:
 
 ```javascript
 const profileDetails = {
